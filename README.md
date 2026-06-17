@@ -1,4 +1,4 @@
-# Router Monitoring Dashboard
+# Network Monitoring Dashboard
 
 A Google Apps Script (GAS) web application for real-time monitoring of CSR and BBU router status across network sites. Built on top of Google Sheets as a data backend, it provides a live dashboard with status summaries, alarm tracking, remark logging, and an embedded network topology diagram — deployable with zero infrastructure beyond a Google account.
 
