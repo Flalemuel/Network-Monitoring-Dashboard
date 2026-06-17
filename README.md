@@ -261,7 +261,7 @@ Stores NOC operator remarks linked to down events. **This sheet is auto-created*
 ### For NOC Operators
 
 **Refreshing data**
-Click the **Refresh Data** button in the toolbar to pull the latest entries from the spreadsheet. The dashboard does not auto-refresh — it must be triggered manually.
+Click the **Refresh Data** button in the toolbar to pull the latest entries from the spreadsheet. The dashboard does not auto-refresh — it must be triggered manually. `Data_Raw` sheet and `Data_Alarms` sheet must be updated manually in the Google Spreadsheet first.
 
 **Switching between CSR and BBU**
 Click **Switch to BBU** (or **Switch to CSR**) to change the monitoring mode. This switches the donut chart, Down Detail table, and Top 10 table to reflect the selected device type. The alarm section is independent of this toggle.
@@ -314,7 +314,7 @@ Go to **Deploy → Manage deployments → Edit (pencil icon) → Version: New ve
 
 ## Known Limitations
 
-- **No auto-refresh.** The dashboard does not poll for new data automatically. NOC staff must click Refresh Data manually to see updates.
+- **No auto-refresh.** The dashboard does not poll for new data automatically. NOC staff must click Refresh Data manually to see updates. Staff must also populate the spreadsheet with latest data first. As this program does not have Backend connected to the network.
 
 - **1-hour window is data-anchored, not clock-anchored.** The window is calculated from the latest timestamp found in the sheet, not from the current wall-clock time. If no new rows have been added recently, the window reflects older data without any warning.
 
