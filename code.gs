@@ -8,7 +8,7 @@ const CONFIG = {
 
 function doGet() {
   const t = HtmlService.createTemplateFromFile('Index');
-  t.appTitle = 'Router Monitoring Dashboard';
+  t.appTitle = 'Network Monitoring Dashboard';
   return t.evaluate()
     .setTitle(t.appTitle)
     .setXFrameOptionsMode(HtmlService.XFrameOptionsMode.ALLOWALL);
